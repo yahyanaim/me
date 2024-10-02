@@ -1,0 +1,20 @@
+body.dark-mode #about {
+    background-image: none !important;
+  }
+.nav-link i {
+    margin-right: 5px; /* Space between icon and text */
+    color: rgb(255, 196, 0); /* Change color as needed */
+    font-size: 1.3rem; /* Adjust icon size */
+    
+}
+
+.shadow-effect {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Change values for different shadow effects */
+    transition: box-shadow 0.3s ease; /* Smooth transition effect */
+}
+
+.shadow-effect:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow on hover */
+}
+
+
