@@ -77,7 +77,17 @@
           <div class="ml-lg-4">
             <div class="color-mode d-lg-flex justify-content-center align-items-center">
               <i class="color-mode-icon"></i>
-              Color mode
+                <button id="colorModeToggle" class="btn btn-link" style="text-decoration: none; color: inherit; font-weight: bold; font-size: 1rem;">Dark mode</button>
+                <script>
+                document.getElementById('colorModeToggle').addEventListener('click', function() {
+                  const button = this;
+                  if (button.textContent.trim() === 'Dark mode') {
+                  button.textContent = 'Light mode';
+                  } else {
+                  button.textContent = 'Dark mode';
+                  }
+                });
+                </script>
             </div>
           </div>
         </ul>
@@ -285,7 +295,7 @@
               </div>
               <div class="timeline-info">
                 <h3><span>Web and Mobile Development In Simplon Line</span><small>Youcode, Safi</small></h3>
-                <ul style="list-style-type: none; padding-left: 0;">
+                <ul style="list-style-type: none; padding-left: 0; color: #5b5b5b;">
                   <li style="margin-bottom: 10px;">
                     <img src="https://img.icons8.com/ios-filled/16/000000/arrow.png" alt="Arrow" style="vertical-align: middle;"> 
                     Developed a website to manage flights: 
