@@ -7,14 +7,3 @@ body.dark-mode #about {
     font-size: 1.3rem; /* Adjust icon size */
     
 }
-
-.shadow-effect {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Change values for different shadow effects */
-    transition: box-shadow 0.3s ease; /* Smooth transition effect */
-}
-
-.shadow-effect:hover {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Shadow on hover */
-}
-
-
